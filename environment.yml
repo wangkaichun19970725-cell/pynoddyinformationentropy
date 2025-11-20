@@ -1,0 +1,19 @@
+name: entropy50
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - scikit-image
+  - scikit-learn
+  - pyyaml
+  - tqdm
+  - pip
+  - pip:
+      - pynoddy
+# RL (optional, CPU):
+# conda install pytorch torchvision torchaudio cpuonly -c pytorch
